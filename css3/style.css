@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 5px;
+    font-family:'Inter', sans-serif;
+    color: yellow;
+}
+
+body {
+    background-color: #051D3B;
+    
+}
+
+.logo, .nav-bar, .profile {
+    display: inline-block;
+    margin: 0px 50px;
+}
+
+.highlight-button {
+    background-color: #0c386e;
+    text-align: 'center';
+    padding: 20px;
+}
+.save-project-button {
+    background-color: #2943a9;
+    text-align: 'center';
+    padding: 20px;
+}
+
+.editor-box {
+    background-color: mediumaquamarine;
+}
+
+.content-text-box {
+    background-color: black;
+}
+
+p {
+    display: inline-block;
+    color: rgb(205, 204, 204);
+    margin: 5px;
+}
+
+.input-text {
+    background-color: #2D415A;
+    color: rgb(205, 204, 204);
+    margin: 10px;
+}
+
+.box-icon {
+    border-radius: 10px;
+    background-color: #0c386e;
+}
+#language {
+    color: rgb(205, 204, 204);;
+    background-color: #2D415A
+}
+.editor-box-color {
+    background-color: aquamarine;
+    width: 100px;
+}
+
+.right-content, .left-content, .center-content {
+    display: inline-block;
+}

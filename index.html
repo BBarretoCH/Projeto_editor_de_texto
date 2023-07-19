@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Texto</title>
+    <link rel="stylesheet" href="/css3/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            logo
+        </div>
+        <div class="nav-bar">
+            <input class="input-text" type="text" name="nav-bar" id="nav-bar" placeholder="Busque por algo">
+        </div>
+        <div class="profile">
+            profile
+        </div>
+    </header>
+
+    <section class="left-content">
+        conteudo à esquerda
+        <div class="menu">
+            <p>M E N U</p><br>
+            <p><img class="box-icon" src="images/code-icon.png" alt="code-icon">editor de código</p></br>
+            <p><img class="box-icon" src="images/community-icon.png" alt="community-icon">Comunidade</p></br>
+        </div>
+    </section>
+
+    <section class="center-content">
+        conteudo central
+        <div class="editor-box">
+            <div class="content-text-box">
+                function teste(arg) {<br>
+                    //logica <br>
+                    return //something<br>
+                }<br>
+
+                console.log(teste(argumento))
+            </div>
+        </div>
+        <input class="button highlight-button" type="button" value="Visualizar com o highlight">
+    </section>
+
+    <section class="right-content">
+        conteúdo à direita <br>
+        <p>S E U  P R O J E T O</p></br>
+
+        <input class="input-text" type="text" name="project-name" id="project-name" placeholder="Nome do seu projeto"></br>
+        <input class="input-text" type="text" name="project-description" id="project-description" placeholder="Descrição do seu projeto"> <br>
+
+        <p>P E R S O N A L I Z A Ç Ã O</p><br>
+
+        <select name="language" id="language">
+            <option class="options" value="javaScript">javaScript</option>
+        </select><br>
+
+        <div class="editor-box-color"></div><br>
+
+        <input class="button save-project-button" type="button" value="Salvar projeto">
+    </section>
+
+</body>
+</html>
