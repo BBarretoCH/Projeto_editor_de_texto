@@ -18,6 +18,22 @@ body {
     margin: 0px 50px;
 }
 
+.input-text {
+    background-color: #2D415A;
+    color: rgb(205, 204, 204);
+    margin: 10px;
+}
+
+.right-content, .left-content, .center-content {
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+    color: rgb(205, 204, 204);
+    margin: 5px;
+}
+
 .highlight-button {
     background-color: #0c386e;
     text-align: 'center';
@@ -37,18 +53,6 @@ body {
     background-color: black;
 }
 
-p {
-    display: inline-block;
-    color: rgb(205, 204, 204);
-    margin: 5px;
-}
-
-.input-text {
-    background-color: #2D415A;
-    color: rgb(205, 204, 204);
-    margin: 10px;
-}
-
 .box-icon {
     border-radius: 10px;
     background-color: #0c386e;
@@ -62,6 +66,3 @@ p {
     width: 100px;
 }
 
-.right-content, .left-content, .center-content {
-    display: inline-block;
-}
