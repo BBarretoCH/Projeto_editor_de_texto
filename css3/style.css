@@ -17,6 +17,9 @@ body {
     display: inline-block;
     margin: 0px 50px;
 }
+#logo {
+    width: 300px;
+}
 
 .input-text {
     background-color: #2D415A;
