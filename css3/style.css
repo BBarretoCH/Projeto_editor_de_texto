@@ -37,14 +37,6 @@ body {
     border: 1px solid #2D415A;
 }
 
-.input-text {
-    background-color: #2D415A;
-    color: rgb(205, 204, 204);
-    width: 752px;
-    border-radius: 5px;
-    border: 1px solid #2D415A;
-}
-
 .right-content, .left-content, .center-content {
     display: inline-block;
 }
