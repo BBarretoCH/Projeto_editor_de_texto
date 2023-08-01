@@ -9,8 +9,7 @@
 }
 
 body {
-    background-color: #051D3B;
-    
+    background-color: #051D3B;  
 }
 
 .logo, .nav-bar, .profile {
@@ -24,7 +23,9 @@ body {
 .input-text {
     background-color: #2D415A;
     color: rgb(205, 204, 204);
-    margin: 10px;
+    width: 752px;
+    border-radius: 5px;
+    border: 1px solid #2D415A;
 }
 
 .right-content, .left-content, .center-content {
