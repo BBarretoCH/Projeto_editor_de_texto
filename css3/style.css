@@ -9,7 +9,14 @@
 }
 
 body {
-    background-color: #051D3B;  
+
+    background-color: #051D3B; 
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo, .nav-bar, .profile {
