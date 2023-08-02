@@ -61,6 +61,11 @@ body {
     gap: 24px;
 }
 
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
 .center-content__editor-box {
     display: flex;
     align-items: center;
