@@ -51,7 +51,6 @@ body {
 
 .right-content {
     display: flex;
-    border: 1px solid red;
     padding: 30px;
     flex-direction: column;
 }
@@ -135,3 +134,12 @@ p {
     border-radius: 5px;
 }
 
+.save-project-button {
+    background-color: #5081FB;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    font-weight: 550;
+}
