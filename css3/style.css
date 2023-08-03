@@ -45,11 +45,31 @@ body {
 .content {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
-.right-content, .left-content, .center-content {
-    display: inline-block;
+.right-content {
+    border: 1px solid red;
+    padding: 30px;
 }
+
+.input-text-right-menu {
+    margin: 10px 0px;
+    background-color: #2D415A;
+    color: rgb(205, 204, 204);
+    width: 272px;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid #2D415A;
+    overflow-wrap: break-word;
+}
+ .project-bar {
+    height: 40px;
+ }
+
+ .descripton-project-bar {
+    height: 100px;
+ }
 
 p {
     display: inline-block;
