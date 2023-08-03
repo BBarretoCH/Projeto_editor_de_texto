@@ -121,8 +121,17 @@ p {
     color: rgb(205, 204, 204);;
     background-color: #2D415A
 }
-.editor-box-color {
+.editor-box-color-outside {
+    width: 272px;
+    height: 38px;
+    border-radius: 5px;
+    border: solid white 1px;
+}
+.editor-box-color-inside {
     background-color: aquamarine;
-    width: 100px;
+    width: 261px;
+    margin: 2px 1px 0px 0px;
+    height: 24px;
+    border-radius: 5px;
 }
 
