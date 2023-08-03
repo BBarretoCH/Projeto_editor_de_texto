@@ -20,7 +20,6 @@ body {
 }
 
 .logo, .nav-bar, .profile {
-    display: inline-block;
     margin: 0px 50px;
 }
 
@@ -50,12 +49,13 @@ body {
 }
 
 .right-content {
+    display: flex;
     border: 1px solid red;
     padding: 30px;
+    flex-direction: column;
 }
 
 .input-text-right-menu {
-    margin: 10px 0px;
     background-color: #2D415A;
     color: white;
     width: 272px;
@@ -76,7 +76,6 @@ body {
  }
 
  #language {
-    margin: 10px 0px;
     background-color: #2D415A;
     color: white;
     width: 284px;
