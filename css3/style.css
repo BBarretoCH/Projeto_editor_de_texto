@@ -64,6 +64,7 @@ body {
 .content {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .center-content__editor-box {
