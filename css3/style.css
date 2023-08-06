@@ -7,11 +7,11 @@
     padding: 0px;
     font-family:'Inter', sans-serif;
     color: yellow;
-    
 }
 
 body {
     background-color: #051D3B;
+    margin: 0px 20px;
 }
 
 .cabecalho {
@@ -21,13 +21,14 @@ body {
 }
 
 #logo {
-    width: 150px;
+    width: 189px;
 }
 
 .logo__profile__picture {
     width: 284px;
     height: 150px;
     border-radius: 8px;
+    width: 325px;
 }
 
 .input-text-navbar {
@@ -77,7 +78,20 @@ body {
 }
 
 .highlight-button {
-    
+    background-color: #0c386e;
+    text-align: 'center';
+    padding: 20px;
+    width: 100%;
+    border-radius: 8px;
+    color: #FFFFFF;
+    line-height: 24px;
+    font-size: 16px;
+    border: none;
+    box-shadow: 1px 1px 3px  black;
+}
+
+.highlight-button:active {
+    border: 1px solid black;
 }
 
 .left-content {
@@ -86,13 +100,33 @@ body {
 }
 
 .menu {
-    width: 150px;
+    width: 189px;
     height: 200px;
+}
+.box-icon {
+    border-radius: 8px;
+    background-color: #0c386e;
+    width: 30px;
+    height: 30px;
+}
+span {
+    font-size: 16px;
+    position: relative;
+    top: -8px;
+    left: 10px;
+    color: rgb(205, 204, 204);
+ }
+
+p {
+    color: rgb(205, 204, 204);
+    margin: 5px;
+    font-size: 24px;
 }
 
 .right-content {
     display: flex;
     flex-direction: column;
+    width: 325px;
 }
 
 .input-text-right-menu {
@@ -127,22 +161,12 @@ body {
     font-size: 16px;
  }
 
-p {
-    display: inline-block;
-    color: rgb(205, 204, 204);
-    margin: 5px;
-}
-
 .save-project-button {
     background-color: #2943a9;
     text-align: 'center';
     padding: 20px;
 }
 
-.box-icon {
-    border-radius: 10px;
-    background-color: #0c386e;
-}
 #language {
     color: rgb(205, 204, 204);;
     background-color: #2D415A
