@@ -22,13 +22,10 @@ body {
 }
 
 #logo {
-    width: 189px;
+    width: 300px;
 }
 
 .logo__profile__picture {
-    width: 284px;
-    height: 150px;
-    border-radius: 8px;
     width: 325px;
 }
 
