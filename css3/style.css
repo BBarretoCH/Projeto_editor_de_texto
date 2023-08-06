@@ -24,6 +24,10 @@ body {
     width: 300px;
 }
 
+.logo__profile__picture {
+    width: 325px;
+}
+
 .input-text-navbar {
     background-color: #2D415A;
     color: rgb(205, 204, 204);
@@ -90,6 +94,7 @@ body {
 .left-content {
     display: flex;
     flex-direction: column;
+    width: 300px;
 }
 
 .menu {
