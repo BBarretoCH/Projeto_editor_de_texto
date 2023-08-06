@@ -104,24 +104,6 @@ body {
     width: 189px;
     height: 200px;
 }
-.box-icon {
-    border-radius: 8px;
-    background-color: #0c386e;
-    width: 30px;
-    height: 30px;
-}
-span {
-    font-size: 16px;
-    position: relative;
-    top: -8px;
-    left: 10px;
-    color: rgb(205, 204, 204);
- }
-
-p {
-    color: rgb(205, 204, 204);
-    margin: 5px;
-}
 
 .right-content {
     display: flex;
