@@ -132,7 +132,7 @@ p {
 .input-text-right-menu {
     background-color: #2D415A;
     color: white;
-    width: 272px;
+    width: 100%;
     height: 80px;
     border-radius: 5px;
     border: 1px solid #2D415A;
@@ -152,7 +152,7 @@ p {
  #language {
     background-color: #2D415A;
     color: white;
-    width: 284px;
+    width: 100%;
     height: 45px;
     border-radius: 5px;
     border: 1px solid #2D415A;
@@ -164,18 +164,22 @@ p {
 .save-project-button {
     background-color: #2943a9;
     text-align: 'center';
+    width: 100%;
     padding: 20px;
 }
 
 .editor-box-color-outside {
-    width: 272px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     height: 38px;
     border-radius: 5px;
     border: solid white 1px;
 }
 .editor-box-color-inside {
     background-color: aquamarine;
-    width: 261px;
+    width: 95%;
     margin: 2px 1px 0px 0px;
     height: 24px;
     border-radius: 5px;
