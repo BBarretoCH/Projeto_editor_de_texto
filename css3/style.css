@@ -110,7 +110,11 @@ body {
     width: 325px;
 }
 
-p{
+span {
+    color: white;
+}
+
+p {
     display: flex;
     align-items: center;
     color: white;
