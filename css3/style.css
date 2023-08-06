@@ -129,6 +129,21 @@ p {
     width: 325px;
 }
 
+p{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.box-icon{
+    background-color: #0f4991;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
 .input-text-right-menu {
     background-color: #2D415A;
     color: white;
@@ -167,10 +182,6 @@ p {
     padding: 20px;
 }
 
-#language {
-    color: rgb(205, 204, 204);;
-    background-color: #2D415A
-}
 .editor-box-color-outside {
     width: 272px;
     height: 38px;
